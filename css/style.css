@@ -8697,6 +8697,58 @@ h1, h2, h3, h4, h5,
     font-weight: 600;
     color: #3e64ff; }
 
+
+
+
+
+    .img-about {
+      width: 100%;
+      height: auto; /* Ensures the height scales automatically */
+      background-size: cover;
+      background-position: center;
+  }
+  
+  @media (max-width: 768px) {
+      .img-about {
+          height: 300px; 
+          margin-top: 10%;
+      }
+  } 
+  .github-icon {
+    font-size: 25px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.github-icon:hover {
+  color: #0056b3; /* Greenish color */
+  animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+
+.blog-entry {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-entry:hover {
+  transform: rotate3d(1, 1, 0, 10deg); /* Slight tilt effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
 #navi {
   top: 180px;
   position: -webkit-sticky;
