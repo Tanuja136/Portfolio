@@ -4,9 +4,7 @@
 <head>
 	<title>Tanuja Mallipamu Portfolio</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -24,19 +22,98 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+	<style>
+		/* Modern Skills Tag UI styles */
+		.skill-chip {
+			display: inline-block !important;
+			background: rgba(62, 100, 255, 0.08) !important;
+			color: #3e64ff !important;
+			border: 1px solid rgba(62, 100, 255, 0.25) !important;
+			padding: 8px 18px !important;
+			border-radius: 30px !important;
+			font-size: 14px !important;
+			font-weight: 500 !important;
+			margin: 5px 6px !important;
+			transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.05) !important;
+			cursor: default;
+		}
+		.skill-chip:hover {
+			background: #3e64ff !important;
+			color: #fff !important;
+			transform: translateY(-3px) !important;
+			box-shadow: 0 5px 15px rgba(62, 100, 255, 0.35) !important;
+			border-color: #3e64ff !important;
+		}
+		.skill-category-title {
+			font-size: 16px !important;
+			font-weight: 600 !important;
+			margin-top: 25px !important;
+			margin-bottom: 15px !important;
+			color: #1a1a1a !important;
+			border-left: 4px solid #3e64ff !important;
+			padding-left: 10px !important;
+			display: block !important;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
 
-
-
-
+		/* Animated Professional Footer styles */
+		.ftco-footer {
+			background: #0f1015 !important;
+			padding: 60px 0 30px 0 !important;
+			border-top: 1px solid rgba(255, 255, 255, 0.05);
+			position: relative;
+		}
+		.footer-social-link {
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			display: inline-block;
+			background: rgba(255, 255, 255, 0.03);
+			color: #ffffff !important;
+			border-radius: 50%;
+			text-align: center;
+			margin: 0 10px;
+			font-size: 20px;
+			transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+			border: 1px solid rgba(255, 255, 255, 0.1);
+		}
+		.footer-social-link:hover {
+			color: #ffffff !important;
+			background: #3e64ff !important;
+			transform: translateY(-8px) scale(1.1) !important;
+			box-shadow: 0 10px 20px rgba(62, 100, 255, 0.4) !important;
+			border-color: #3e64ff !important;
+		}
+		.footer-link {
+			color: rgba(255, 255, 255, 0.6) !important;
+			transition: all 0.3s ease !important;
+			font-size: 15px !important;
+			text-decoration: none !important;
+		}
+		.footer-link:hover {
+			color: #3e64ff !important;
+			padding-left: 5px !important;
+		}
+		.footer-heart {
+			color: #ff3366;
+			display: inline-block;
+			animation: heartbeat 1.5s infinite;
+		}
+		@keyframes heartbeat {
+			0% { transform: scale(1); }
+			20% { transform: scale(1.15); }
+			40% { transform: scale(1); }
+			60% { transform: scale(1.15); }
+			80% { transform: scale(1); }
+			100% { transform: scale(1); }
+		}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -61,7 +138,7 @@
 							class="nav-link"><span>Certifications</span></a></li>
 					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-					<li class="nav-item"><a href="images/TANUJA_M RESUME.pdf" class="btn btn-primary"
+					<li class="nav-item"><a href="images/Tanuja Mallipamu_resume.pdf" class="btn btn-primary"
 							style="padding: 10px 10px;margin-top: 5px;">Download CV</a>
 					</li>
 				</ul>
@@ -102,7 +179,7 @@
 					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
 						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/thub_profile.jpg);">
+							style="background-image:url(images/profile.jpeg);">
 						</div>
 					</div>
 				</div>
@@ -120,7 +197,7 @@
 								<li class="d-flex"><span>Date of birth :</span> <span style="color: #3E64FF;">January
 										23, 2004</span></li>
 								<li class="d-flex"><span>Address :</span> <span style="color: #3E64FF;">Chitrada,
-										Pithapuram Mandal.</span></li>
+										Kakinada</span></li>
 								<li class="d-flex"><span>Email :</span> <span style="color: #3E64FF;"><a
 											href="mailto:tanujamallipamu@gmail.com"
 											style="word-break: break-word;overflow-wrap: break-word;">tanujamallipamu@gmail.com</a></span>
@@ -152,7 +229,7 @@
 								</a>
 							</p>
 							<!-- Download CV -->
-							<p><a href="images/TANUJA_M RESUME.pdf" class="btn btn-primary py-3 px-3" download>Download
+							<p><a href="images/Tanuja Mallipamu_resume.pdf" class="btn btn-primary py-3 px-3" download>Download
 									CV</a></p>
 						</div>
 					</div>
@@ -191,7 +268,7 @@
 					<nav id="navi">
 						<ul>
 							<li><a href="#page-1">Education</a></li>
-							<!-- <li><a href="#page-2">Experience</a></li> -->
+							<li><a href="#page-2">Experience</a></li>
 							<li><a href="#page-3">Skills</a></li>
 							<li><a href="#page-4">Achievements</a></li>
 						</ul>
@@ -208,7 +285,7 @@
 								<span class="date">2023-2026</span>
 								<h2>Bachelor of Technology in Electronics and Communication Engineering</h2>
 								<span class="position">Aditya College of Engineering and Technology</span>
-								<p>CGPA - 8.99</p>
+								<p>CGPA - 9.00</p>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -235,246 +312,111 @@
 						</div>
 					</div>
 
-					<!-- <div id="page-2" class= "page two">
-					  	<h2 class="heading">Experience</h2>
-					    <div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Software Developer</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Web Designer</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Web Marketing</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Art &amp; Creative Director</h2>
-		    					<span class="position">Side Tech</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Wordpress Developer</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2017-2018</span>
-		    					<h2>UI/UX Designer</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-					  </div> -->
+					<div id="page-2" class="page two">
+						<h2 class="heading">Experience</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-briefcase"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">May 2026 – Present</span>
+								<h2>Junior Full Stack Developer Intern</h2>
+								<span class="position">Nuhvin Global Services Pvt. Ltd.</span>
+								<p>Developed full-stack web applications using React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript.</p>
+								<p>Delivered and maintained multiple live client projects:</p>
+								<ul style="list-style-type: square; padding-left: 20px; color: #3E64FF; margin-bottom: 15px;">
+									<li><a href="#" target="_blank" style="color: #3E64FF; text-decoration: underline;">NADT Technical Courses Portal <i class="fas fa-external-link-alt" style="font-size: 11px;"></i></a></li>
+									<li><a href="#" target="_blank" style="color: #3E64FF; text-decoration: underline;">Car Rental System <i class="fas fa-external-link-alt" style="font-size: 11px;"></i></a></li>
+									<li><a href="#" target="_blank" style="color: #3E64FF; text-decoration: underline;">Real Temple <i class="fas fa-external-link-alt" style="font-size: 11px;"></i></a></li>
+									<li><a href="#" target="_blank" style="color: #3E64FF; text-decoration: underline;">Cyber Segura <i class="fas fa-external-link-alt" style="font-size: 11px;"></i></a></li>
+								</ul>
+								<p>Designed responsive user interfaces and developed reusable React components for production applications. Developed RESTful APIs, integrated frontend with backend services, and managed MongoDB databases. Collaborated using Git/GitHub to resolve production bugs and optimize application performance.</p>
+							</div>
+						</div>
+					</div>
 
 					<div id="page-3" class="page three">
 						<h2 class="heading">Skills</h2>
-
-
 						<div class="row">
-
-
-
-							<div class="col-md-12">
-								<h2>Programming Languages</h2>
-							</div>
-							<!-- <div class="row progress-circle mb-5"> -->
-
-
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Java</h3>
-									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="50"
-											aria-valuemin="0" aria-valuemax="100" style="width:50%">
-											<span>50%</span>
-										</div>
-									</div>
+							
+							<!-- Programming Languages -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">Programming Languages</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">Python</span>
+									<span class="skill-chip">Java</span>
 								</div>
 							</div>
 
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Python</h3>
-									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-											aria-valuemin="0" aria-valuemax="100" style="width:75%">
-											<span>75%</span>
-										</div>
-									</div>
+							<!-- AI and Machine Learning -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">AI and Machine Learning</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">Deep Learning</span>
+									<span class="skill-chip">TensorFlow</span>
+									<span class="skill-chip">Transfer Learning</span>
+									<span class="skill-chip">Image Classification</span>
+									<span class="skill-chip">Data Preprocessing</span>
+									<span class="skill-chip">Model Evaluation</span>
 								</div>
 							</div>
 
-
-							<!-- Frontend Skills -->
-							<div class="col-md-12">
-								<h2>Frontend Skills</h2>
-							</div>
-
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>HTML</h3>
-									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="95"
-											aria-valuemin="0" aria-valuemax="100" style="width:95%">
-											<span>95%</span>
-										</div>
-									</div>
+							<!-- Frontend Technologies -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">Frontend Technologies</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">HTML</span>
+									<span class="skill-chip">CSS</span>
+									<span class="skill-chip">JavaScript</span>
+									<span class="skill-chip">React.js</span>
 								</div>
 							</div>
 
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>CSS</h3>
-									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="95"
-											aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											<span>90%</span>
-										</div>
-									</div>
+							<!-- Backend and Databases -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">Backend and Databases</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">Node.js</span>
+									<span class="skill-chip">MongoDB</span>
+									<span class="skill-chip">SQL</span>
 								</div>
 							</div>
 
-
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Bootstrap</h3>
-									<div class="progress">
-										<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
-											aria-valuemin="0" aria-valuemax="100" style="width:80%">
-											<span>80%</span>
-										</div>
-									</div>
+							<!-- Software Development -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">Software Development</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">Full Stack Development</span>
+									<span class="skill-chip">Web Development</span>
+									<span class="skill-chip">Mobile Application Development</span>
 								</div>
 							</div>
 
-
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>Javascript</h3>
-									<div class="progress">
-										<div class="progress-bar color-3" role="progressbar" aria-valuenow="70"
-											aria-valuemin="0" aria-valuemax="100" style="width:70%">
-											<span>70%</span>
-										</div>
-									</div>
+							<!-- Developer Tools -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">Developer Tools</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">GitHub</span>
+									<span class="skill-chip">MS Word</span>
+									<span class="skill-chip">MS Excel</span>
+									<span class="skill-chip">VS Code</span>
+									<span class="skill-chip">Sublime Text</span>
+									<span class="skill-chip">MongoDB Compass</span>
 								</div>
 							</div>
 
-
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>React.js</h3>
-									<div class="progress">
-										<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-											aria-valuemin="0" aria-valuemax="100" style="width:80%">
-											<span>80%</span>
-										</div>
-									</div>
+							<!-- Soft Skills -->
+							<div class="col-md-12 mb-4 animate-box">
+								<span class="skill-category-title">Soft Skills</span>
+								<div class="d-flex flex-wrap">
+									<span class="skill-chip">Teamwork</span>
+									<span class="skill-chip">Time Management</span>
+									<span class="skill-chip">Communication</span>
+									<span class="skill-chip">Problem Solving</span>
 								</div>
 							</div>
-
-							<!-- <div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>SEO</h3>
-									<div class="progress">
-										<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-											aria-valuemin="0" aria-valuemax="100" style="width:80%">
-											<span>80%</span>
-										</div>
-									</div>
-								</div>
-							</div> -->
-
-							<!-- Backend Skills -->
-							<div class="col-md-12">
-								<h2>Backend Skills</h2>
-							</div>
-
-
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>MongoDB</h3>
-									<div class="progress">
-										<div class="progress-bar color-8" role="progressbar" aria-valuenow="75"
-											aria-valuemin="0" aria-valuemax="100" style="width:75%">
-											<span>75%</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-
-
-							<!-- <div class="col-md-12">
-								<h2>Developer Tools</h2>
-							</div>
-						
-						
-							<div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>MongoDB</h3>
-									<div class="progress">
-										<div class="progress-bar color-8" role="progressbar" aria-valuenow="75"
-											aria-valuemin="0" aria-valuemax="100" style="width:75%">
-											<span>75%</span>
-										</div>
-									</div>
-								</div>
-							</div> -->
-
-							<!-- <div class="col-md-6 animate-box">
-								<div class="progress-wrap ftco-animate">
-									<h3>REST API</h3>
-									<div class="progress">
-										<div class="progress-bar color-9" role="progressbar" aria-valuenow="85"
-											aria-valuemin="0" aria-valuemax="100" style="width:85%">
-											<span>85%</span>
-										</div>
-									</div>
-								</div>
-							</div> -->
 
 						</div>
-
 					</div>
 					<div id="page-4" class="page four">
 						<h2 class="heading">Achievements</h2>
@@ -487,19 +429,12 @@
 							<div class="text pl-3">
 								<span class="date">2024</span>
 								<h2>1st Prize - ECE Expo</h2>
-								<span class="position">Veda Technical Event, Aditya College of Engineering and
-									Technology</span>
-								<!-- <p>Veda Technical Event, Aditya College of Engineering and Technology</span> -->
-								<p>Participated in the <b>ECE EXPO</b> at the "Veda Technical Event", presenting key
-									aspects of <b>Electronics and Communication Engineering (ECE)</b> through paper
-									presentations, component demonstrations, and discussions. Our presentation focused
-									on <b>SENSORS</b>, covering their working principles, types, real-world
-									applications, and role in automation and IoT. Secured <b>1st place</b> in the
-									competition.</p>
+								<span class="position">Veda Technical Event, Aditya College of Engineering and Technology</span>
+								<p>Achieved <b>1st Prize</b> in the ECE Expo at the "Veda Technical Event", Aditya College of Engineering and Technology, for an <b>IoT-based Sensor Automation System</b> poster presentation demonstrating working principles, sensor types, and real-world applications in automation and IoT.</p>
 
 								<!-- Button to trigger modal -->
-								<button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal"
-									data-bs-target="#eceExpoModal">
+								<button type="button" class="btn btn-primary mt-2" data-toggle="modal"
+									data-target="#eceExpoModal">
 									View Image
 								</button>
 							</div>
@@ -511,8 +446,7 @@
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="eceExpoModalLabel">ECE Expo - Veda Technical Event
-										</h5>
+										<h5 class="modal-title" id="eceExpoModalLabel">ECE Expo - Veda Technical Event</h5>
 									</div>
 									<div class="modal-body text-center">
 										<img src="images/expoImg.JPG" alt="ECE Expo Image" class="img-fluid rounded">
@@ -520,7 +454,6 @@
 								</div>
 							</div>
 						</div>
-
 
 						<!-- Resume Section - Smart India Hackathon -->
 						<div class="resume-wrap d-flex ftco-animate">
@@ -530,13 +463,12 @@
 							<div class="text pl-3">
 								<span class="date">2024</span>
 								<h2>Advanced to College Level</h2>
-								<span class="position">Smart India Hackathon - Safeguard India</span>
-								<p>Contributed the idea for <b>SAFEGUARD INDIA</b>, a project focused on "human safety
-									and disaster management"</p>
+								<span class="position">Smart India Hackathon</span>
+								<p>Qualified as a <b>college-level finalist</b> in the <b>Smart India Hackathon (2024)</b> with the project <b>"Safeguard India"</b>, a disaster management and human safety solution integrating real-time monitoring, alert systems, and data-driven decision-making.</p>
 
 								<!-- Button to trigger modal -->
-								<button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal"
-									data-bs-target="#sihModal">
+								<button type="button" class="btn btn-primary mt-2" data-toggle="modal"
+									data-target="#sihModal">
 									View Image
 								</button>
 							</div>
@@ -548,64 +480,63 @@
 							<div class="modal-dialog modal-dialog-centered">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="sihModalLabel">Smart India Hackathon - Safeguard
-											India</h5>
+										<h5 class="modal-title" id="sihModalLabel">Smart India Hackathon - Safeguard India</h5>
 									</div>
-									<div class="modal-body text-center">
+								<div class="modal-body text-center">
 										<img src="images/SIH.jpg" alt="SIH Image" class="img-fluid rounded">
 									</div>
 								</div>
 							</div>
 						</div>
 
-
-
-						<!-- <div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">					    		
-								<i class="fas fa-trophy" style="color: white;font-size: 20px;"></i>
+						<!-- Coding Profiles Subsection -->
+						<h2 class="heading mt-5">Coding Profiles</h2>
+						<div class="row">
+							<div class="col-md-12 col-lg-4 animate-box mb-3">
+								<div class="resume-wrap d-flex ftco-animate" style="padding: 15px; min-height: 150px;">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<i class="fas fa-code" style="color: white; font-size: 16px;"></i>
+									</div>
+									<div class="text pl-3">
+										<h2 style="font-size: 18px; margin-bottom: 5px;">CodeChef</h2>
+										<span class="position" style="font-size: 13px; color: #3E64FF;">tanuja32</span>
+										<p style="font-size: 12px; margin-bottom: 10px;">500+ problems solved</p>
+										<a href="https://www.codechef.com/users/tanuja32" target="_blank" class="btn btn-primary" style="padding: 2px 10px; font-size: 11px;">View Profile</a>
+									</div>
+								</div>
 							</div>
-							<div class="text pl-3">
-								<span class="date">2024</span>
-								<h2>Advanced to College Level</h2>
-								<span class="position">Smart India Hackathon-Safeguard India</span>
-								<p>Contributed the idea for <b>SAFEGUARD INDIA</b>, a project focused on "human safety and disaster management". Selected up to the <b>College level</b> in the <b>Smart India Hackathon 2024</b>.</p>
+							<div class="col-md-12 col-lg-4 animate-box mb-3">
+								<div class="resume-wrap d-flex ftco-animate" style="padding: 15px; min-height: 150px;">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<i class="fas fa-laptop-code" style="color: white; font-size: 16px;"></i>
+									</div>
+									<div class="text pl-3">
+										<h2 style="font-size: 18px; margin-bottom: 5px;">LeetCode</h2>
+										<span class="position" style="font-size: 13px; color: #3E64FF;">tanuja630</span>
+										<p style="font-size: 12px; margin-bottom: 10px;">200+ solved, 100 Days Badge</p>
+										<a href="https://leetcode.com/u/tanuja630/" target="_blank" class="btn btn-primary" style="padding: 2px 10px; font-size: 11px;">View Profile</a>
+									</div>
+								</div>
 							</div>
-						</div> -->
-
-
-						<!-- <div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Top 4 Web Tester</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div>
-
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2014-2015</span>
-		    					<h2>Art &amp; Creative Director</h2>
-		    					<span class="position">Cambridge University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		    				</div>
-	    				</div> -->
-
+							<div class="col-md-12 col-lg-4 animate-box mb-3">
+								<div class="resume-wrap d-flex ftco-animate" style="padding: 15px; min-height: 150px;">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<i class="fas fa-terminal" style="color: white; font-size: 16px;"></i>
+									</div>
+									<div class="text pl-3">
+										<h2 style="font-size: 18px; margin-bottom: 5px;">GeeksforGeeks</h2>
+										<span class="position" style="font-size: 13px; color: #3E64FF;">tanuja630</span>
+										<p style="font-size: 12px; margin-bottom: 10px;">Regular DSA practice</p>
+										<a href="https://www.geeksforgeeks.org/user/tanuja630/" target="_blank" class="btn btn-primary" style="padding: 2px 10px; font-size: 11px;">View Profile</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
-
 
 	<section class="ftco-section" id="Internships-section">
 		<div class="container-fluid px-md-5">
@@ -645,11 +576,11 @@
 								<img src="images/atom.png" alt="React Native Icon" style="height: 80px; width: 80px;" />
 							</span>
 							<div class="desc">
-								<h3 class="mb-5" style="color: #3E64FF;">FSD with React Native</h3>
-								<p>From - Technical Hub</p>
-								<p>I specialized in Full Stack Development using React & React Native, building
-									responsive mobile and web applications with integrated backend functionalities and
-									real-time user interactions.</p>
+								<h3 class="mb-5" style="color: #3E64FF;">Full Stack React Native Development Intern</h3>
+								<p>From - Technical Hub (2024 – Present)</p>
+								<p style="margin-bottom: 5px;">• Delivered 5+ live projects using MERN/React Native stack, reducing delivery time by 15%.</p>
+								<p style="margin-bottom: 5px;">• Managed full-cycle development from HTML, CSS, JavaScript, React Native, Bootstrap to React.js, Node.js, MongoDB.</p>
+								<p style="margin-bottom: 5px;">• Led complete build of Canteen Connect, automating orders and cutting manual effort by 40%.</p>
 							</div>
 						</a>
 					</div>
@@ -667,74 +598,6 @@
 	</section>
 
 
-	<!-- <section class="ftco-section ftco-project" id="Internships-section">
-    	<div class="container-fluid px-md-0">
-    		<div class="row no-gutters justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Our Projects</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-    		<div class="row no-gutters">
-    			<div class="col-md-6">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-6">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section> -->
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="Certifications-section">
 		<div class="container-fluid px-md-5">
@@ -742,13 +605,12 @@
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<h2 class="mb-4">Certifications</h2>
 				</div>
-
 				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
 					style="margin-bottom: 20px;">
 					<div class="block-18 shadow">
 						<div class="text">
-							<h5 style="color: #3E64FF;">HTML and CSS</h5>
-							<span style="color: gray;">IT Specialist</span>
+							<h5 style="color: #3E64FF;">HTML, CSS</h5>
+							<span style="color: gray;">IT Specialist (Certiport)</span>
 							<button
 								onclick="window.open('https://drive.google.com/file/d/1_SBzRz92UIB57WXedwAUw5BV2utaJmvM/view?usp=drivesdk', '_blank')"
 								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
@@ -757,6 +619,33 @@
 					</div>
 				</div>
 
+				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
+					style="margin-bottom: 20px;">
+					<div class="block-18 shadow">
+						<div class="text">
+							<h5 style="color: #3E64FF;">JavaScript</h5>
+							<span style="color: gray;">Cisco (Credly Badge)</span>
+							<button
+								onclick="window.open('https://drive.google.com/file/d/1_Ln4_o4OBtpALapGKGhApKrQBorydRt-/view?usp=drivesdk', '_blank')"
+								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
+								Badge </button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
+					style="margin-bottom: 20px;">
+					<div class="block-18 shadow">
+						<div class="text">
+							<h5 style="color: #3E64FF;">Python Essentials 1</h5>
+							<span style="color: gray;">Cisco (Credly Badge)</span>
+							<button
+								onclick="window.open('https://drive.google.com/file/d/1_N96T3V0cf3HqlnUxysWeubNGbX7vlAo/view?usp=drivesdk', '_blank')"
+								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
+								Badge </button>
+						</div>
+					</div>
+				</div>
 
 				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
 					style="margin-bottom: 20px;">
@@ -786,68 +675,19 @@
 					</div>
 				</div>
 
-
 				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
 					style="margin-bottom: 20px;">
 					<div class="block-18 shadow">
 						<div class="text">
-							<h5 style="color: #3E64FF;">JavaScript Essentials 1</h5>
-							<span style="color: gray;">Cisco</span>
+							<h5 style="color: #3E64FF;">Business Communication</h5>
+							<span style="color: gray;">RITx (edX)</span>
 							<button
-								onclick="window.open('https://drive.google.com/file/d/1_Ln4_o4OBtpALapGKGhApKrQBorydRt-/view?usp=drivesdk', '_blank')"
+								onclick="window.open('#', '_blank')"
 								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
 								Certificate </button>
 						</div>
 					</div>
 				</div>
-
-
-				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
-					style="margin-bottom: 20px;">
-					<div class="block-18 shadow">
-						<div class="text">
-							<h5 style="color: #3E64FF;">JavaScript Essentials 2</h5>
-							<span style="color: gray;">Cisco</span>
-							<button
-								onclick="window.open('https://drive.google.com/file/d/1_N96T3V0cf3HqlnUxysWeubNGbX7vlAo/view?usp=drivesdk', '_blank')"
-								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
-								Certificate </button>
-						</div>
-					</div>
-				</div>
-
-
-
-				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
-					style="margin-bottom: 20px;">
-					<div class="block-18 shadow">
-						<div class="text">
-							<h5 style="color: #3E64FF;">Web Development</h5>
-							<span style="color: gray;">Codsoft</span>
-							<button
-								onclick="window.open('https://www.linkedin.com/posts/tanuja-mallipamu-111b7b256_codsoft-certificate-activity-7244198436068065282-mU8p?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8tZd0BpA8BXJP2_L_ns8unM7JgJizmvRY', '_blank')"
-								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
-								Certificate </button>
-						</div>
-					</div>
-				</div>
-
-
-
-				<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
-					style="margin-bottom: 20px;">
-					<div class="block-18 shadow">
-						<div class="text">
-							<h5 style="color: #3E64FF;">Flipkart GRID 6.0 , TATA Crucible Campus Quiz 2024</h5>
-							<span style="color: gray;">Unstop</span>
-							<button
-								onclick="window.open('https://www.linkedin.com/posts/tanuja-mallipamu-111b7b256_tatacrucible-techquiz-flipkartgrid-activity-7242912199034200066-EexZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8tZd0BpA8BXJP2_L_ns8unM7JgJizmvRY', '_blank')"
-								style="margin-top: 10px; padding: 2px 15px; background: #3E64FF; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">View
-								Certificate </button>
-						</div>
-					</div>
-				</div>
-
 			</div>
 		</div>
 	</section>
@@ -867,12 +707,36 @@
 
 			<div class="row d-flex">
 
-
-
+				<!-- Tobacco Leaf Grading System -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="#" class="block-20"
-							style="background-image: url('data:image/jpeg;base64,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');">
+						<a href="#" class="block-20" style="background-image: url('images/tobacco_grading.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h1 class="heading"
+								style="display: flex;align-items: center;justify-content: space-between;">
+								<a href="#">Tobacco Grading</a>
+								<a href="https://github.com/Tanuja136" target="_blank" style="color: black;">
+									<i class="fab fa-github github-icon"></i>
+								</a>
+							</h1>
+							<div class="d-flex align-items-center mb-3 meta" style="display: flex !important; gap: 5px; flex-wrap: wrap;">
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">Python</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">TensorFlow</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">Flask</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">OpenCV</div>
+							</div>
+							<p>
+								Automated classification of tobacco leaves into Grade A, B, and C using image-based deep learning analysis with <b>97.04% accuracy</b>, along with real-time prediction and history tracking using Flask.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Canteen Connect -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="#" class="block-20" style="background-image: url('images/canteen_connect.png');">
 						</a>
 						<div class="text mt-3 float-right d-block">
 							<h1 class="heading"
@@ -885,32 +749,21 @@
 							</h1>
 
 							<div class="d-flex align-items-center mb-3 meta"
-								style="display: flex !important; gap: 5px;">
-								<p class="mb-0">
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px;">
-									React Native</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px;">
-									Node.js</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px;">
-									ServiceNow</div>
-								</p>
+								style="display: flex !important; gap: 5px; flex-wrap: wrap;">
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">React Native</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">Node.js</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">ServiceNow</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">MongoDB</div>
 							</div>
 
 							<p>
-								"Canteen Connect" is a smart food ordering app for campus canteens, offering a seamless
-								user experience for browsing menus, filtering items, adding to cart, and online
-								payments. Built with React Native, Node.js, and MongoDB, it features wishlist, ratings,
-								cost filters, and detailed item views.
+								A smart food ordering app for campus canteens, offering seamless cart checkout, dark mode, menu filtering, and ServiceNow automation, cutting order placement time by <b>40%</b>.
 							</p>
 						</div>
 					</div>
 				</div>
 
-
-
+				<!-- Blood Care -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="#" class="block-20" style="background-image: url('images/p2.avif');">
@@ -926,30 +779,17 @@
 							</h1>
 
 							<div class="d-flex align-items-center mb-3 meta"
-								style="display: flex !important; gap: 5px;">
-								<p class="mb-0">
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px;">
-									React.js</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px;">
-									CSS</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px;">
-									MongoDB</div>
-								</p>
+								style="display: flex !important; gap: 5px; flex-wrap: wrap;">
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">React.js</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">CSS</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">MongoDB</div>
 							</div>
-							<p>I developed "Blood Care", a web-based blood donation management platform that streamlines
-								user registration, admin management, and donation tracking. Built with React and
-								MongoDB, it features interactive charts for donor categorization and statistics.</p>
+							<p>Web-based blood donation management platform that streamlines user registration, admin management, and donation tracking, featuring donor categorization statistics dashboard charts.</p>
 						</div>
 					</div>
 				</div>
 
-
-
-
-
+				<!-- Finance Tracker -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="#" class="block-20" style="background-image: url('images/p1.jpg');">
@@ -963,33 +803,17 @@
 									<i class="fab fa-github github-icon"></i>
 								</a>
 							</h1>
-							<div class="d-flex align-items-center mb-3 meta" style="display: flex !important;gap: 5px;">
-								<p class="mb-0">
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px; ">
-									HTML</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px; ">
-									CSS</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px; ">
-									Javascript</div>
-								</p>
+							<div class="d-flex align-items-center mb-3 meta" style="display: flex !important; gap: 5px; flex-wrap: wrap;">
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">HTML</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">CSS</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">Javascript</div>
 							</div>
-							<p>I developed a responsive front-end for the Finance Tracker application using HTML, CSS,
-								and JavaScript. The platform categorizes expenses and visualizes spending patterns
-								through interactive charts.</p>
-							<!-- <button>View Repository</button> -->
+							<p>Responsive front-end application interface for expense and budget tracking, categorizing user expenses, and visualizing monthly spending patterns through charts.</p>
 						</div>
 					</div>
 				</div>
 
-
-
-
-
-
-
+				<!-- GymSphere -->
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="#" class="block-20" style="background-image: url('images/p3.jpg');">
@@ -1003,27 +827,15 @@
 									<i class="fab fa-github github-icon"></i>
 								</a>
 							</h1>
-							<div class="d-flex align-items-center mb-3 meta" style="display: flex !important;gap: 5px;">
-								<p class="mb-0">
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px; ">
-									HTML</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px; ">
-									CSS</div>
-								<div
-									style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 16px; border-radius: 5px; ">
-									Bootstrap</div>
-								</p>
+							<div class="d-flex align-items-center mb-3 meta" style="display: flex !important; gap: 5px; flex-wrap: wrap;">
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">HTML</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">CSS</div>
+								<div style="background-color: rgb(237, 237, 242); color: rgb(39, 90, 229); border: none; padding: 2px 10px; border-radius: 5px; font-size: 11px;">Bootstrap</div>
 							</div>
-							<p>I participated in a hands-on Web & Cloud Bootcamp during my diploma, where I built a Gym
-								website using HTML, CSS, and Bootstrap. The project featured a well-structured layout
-								showcasing services, testimonials, and contact information.</p>
-							<!-- <button>View Repository</button> -->
+							<p>Gym website showcasing trainer profiles, services description, membership plans, and visual media integration developed using HTML5, CSS3, and Bootstrap.</p>
 						</div>
 					</div>
 				</div>
-
 
 			</div>
 		</div>
@@ -1062,7 +874,7 @@
 						</div>
 						<div>
 							<h3 class="mb-4">Address</h3>
-							<p style="color: #3E64FF;">Chitrada,Pithapuram Mandal</p>
+							<p style="color: #3E64FF;">Chitrada, Kakinada</p>
 						</div>
 					</div>
 				</div>
@@ -1139,7 +951,7 @@
 					</form>
 				</div>
 				<div class="col-md-6 d-flex">
-					<div class="img" style="background-image: url(images/thub_profile.jpg);"></div>
+					<div class="img" style="background-image: url(images/profile.jpeg); background-position: center 55%;"></div>
 				</div>
 			</div>
 
@@ -1150,22 +962,51 @@
 
 	<footer class="ftco-footer ftco-section">
 		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Visit my social profile and get connected</h2>
-						<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
-
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate"><a href="mailto:tanujamallipamu@gmail.com"><span
-										class="fas fa-envelope"></span></a></li>
-							<li class="ftco-animate"><a
-									href="https://www.linkedin.com/in/tanuja-mallipamu-111b7b256"><span
-										class="fab fa-linkedin"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.instagram.com/tanuja_tanu.630/"><span
-										class="icon-instagram"></span></a></li>
+			<div class="row mb-5 text-center text-md-left">
+				<div class="col-md-5 mb-4 mb-md-0">
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2" style="font-weight: 700; color: #fff; font-size: 22px; margin-bottom: 20px;">Tanuja Mallipamu</h2>
+						<p style="color: rgba(255, 255, 255, 0.6); font-size: 14px; line-height: 1.8;">
+							A passionate Full Stack React Native Developer focused on building elegant, performant, and user-centric mobile and web applications.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 mb-4 mb-md-0">
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2" style="font-weight: 700; color: #fff; font-size: 18px; margin-bottom: 20px;">Quick Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="#home-section" class="footer-link d-block py-1">Home</a></li>
+							<li><a href="#about-section" class="footer-link d-block py-1">About</a></li>
+							<li><a href="#resume-section" class="footer-link d-block py-1">Resume</a></li>
+							<li><a href="#projects-section" class="footer-link d-block py-1">Projects</a></li>
 						</ul>
 					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="ftco-footer-widget text-center">
+						<h2 class="ftco-heading-2" style="font-weight: 700; color: #fff; font-size: 18px; margin-bottom: 20px;">Connect With Me</h2>
+						<div class="d-flex justify-content-center mt-3">
+							<a href="mailto:tanujamallipamu@gmail.com" class="footer-social-link" title="Email">
+								<i class="fas fa-envelope"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/tanuja-mallipamu-111b7b256" target="_blank" class="footer-social-link" title="LinkedIn">
+								<i class="fab fa-linkedin"></i>
+							</a>
+							<a href="https://www.instagram.com/tanuja_tanu.630/" target="_blank" class="footer-social-link" title="Instagram">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr style="border-top: 1px solid rgba(255, 255, 255, 0.05); margin: 30px 0;">
+			
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-bottom: 0;">
+						Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Crafted with <i class="fas fa-heart footer-heart"></i> by Tanuja Mallipamu
+					</p>
 				</div>
 			</div>
 		</div>
